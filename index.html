@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>ToDo</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <div class="input-group mb-2">
+            <input id="inp" type="text" class="form-control" placeholder="Enter todo item"
+                aria-label="Recipient's username with two button addons">
+            <button class="btn btn-outline-secondary" type="button" onclick="add()">ADD</button>
+            <button class="btn btn-outline-secondary" type="button" onclick="delAll()" >DELETE ALL</button>
+        </div>
+
+        <!-- <input type="text" id="inp" placeholder="Enter todo item" class="p-2">
+        <button onclick="add()">ADD</button>
+        <button onclick="delAll()">DELETE ALL</button> -->
+        <div id="main">
+
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
